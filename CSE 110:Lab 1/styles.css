@@ -17,6 +17,11 @@ img{
     max-width: 100%;
 }
 
+#list{
+    max-width: 400px;
+    overflow: scroll;
+}
+
 #section-3{ 
     background-color: rgb(245,240,230);
     scroll-margin-top: 38.5px;
@@ -30,14 +35,14 @@ img{
     scroll-margin-top: 38.5px;
 }
 
-.navbar{
-    max-width: 400px;
+nav{
+    background-color: white;
     position: sticky;
     overflow: hidden;
     top: 0;
 }
 
-.navbar a{
+nav a{
     float: left;
     display: inline;
     color: black;
@@ -47,7 +52,7 @@ img{
     font-size: 28px;
 }
 
-.navbar a:hover{
+nav a:hover{
     background-color: #182b29;
     color: white;
 }
@@ -82,7 +87,7 @@ img{
 }
 
 @media screen and (max-width: 800px){
-    .navbar a{
+    nav a{
         display: none;
     }
     .logo{
@@ -112,6 +117,6 @@ img{
     #b4{
         grid-column: 2;
         grid-row: 2;
-        
+
     }
 }
