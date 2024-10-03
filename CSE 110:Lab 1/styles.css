@@ -1,7 +1,7 @@
 #section-1{ 
     background-color: rgb(245,240,230);
     display: inline-block;
-    scroll-margin-top: 38.5px;
+    scroll-margin-top: 198px;
 }
 
 h2 {
@@ -26,7 +26,7 @@ img{
 
 #section-3{ 
     background-color: rgb(245,240,230);
-    scroll-margin-top: 38.5px;
+    scroll-margin-top: 198px;
 }
 
 #section-2 {
@@ -34,7 +34,7 @@ img{
     color: white;
     display: inline-block;
     width: 100%;
-    scroll-margin-top: 38.5px;
+    scroll-margin-top: 198px;
 }
 
 nav{
