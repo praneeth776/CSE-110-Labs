@@ -1,3 +1,7 @@
+body{
+    border-width: 0;
+}
+
 #section-1{ 
     background-color: rgb(245,240,230);
     display: inline-block;
@@ -17,8 +21,10 @@ img{
     max-width: 100%;
 }
 
+main{
+    padding-left: 0;
+}
 #list{
-    max-width: 400px;
     overflow: scroll;
     list-style-type: none;
     padding-left: 0;
@@ -35,7 +41,22 @@ img{
     display: inline-block;
     width: 100%;
     scroll-margin-top: 198px;
+    background-size: cover;
 }
+
+#sec2-img{
+    width:max-content;
+}
+
+#section-4 {
+    background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
+    color: white;
+    display: inline-block;
+    width: 100%;
+    scroll-margin-top: 198px;
+    background-size: cover;
+}
+
 
 nav{
     background-color: white;
